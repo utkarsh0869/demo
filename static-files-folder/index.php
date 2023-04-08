@@ -1,6 +1,3 @@
-<?php
-include('asd.php')
-?>
 <html>
 <head>
 <meta charset="utf-8">
@@ -8,6 +5,8 @@ include('asd.php')
 <link rel="stylesheet" type="text/css" href="/s/hw3.css"></link>
 </head>
 <body>
-    <?php echo "$name"; ?>
+    <?php 
+        echo "name"; 
+    ?>
 </body>
 </html>
