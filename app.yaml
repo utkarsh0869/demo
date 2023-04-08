@@ -1,5 +1,10 @@
 runtime: python39
 
+# runtime: php82
+
+runtime_config:
+  document_root: ./static_dir
+
 handlers:
 - url: /s
   static_dir: static-files-folder
